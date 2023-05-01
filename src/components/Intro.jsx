@@ -42,9 +42,8 @@ function Intro() {
               <h1>
                 Save <span>big</span> with our car rental
               </h1>
-              <p>
-                Rent the car of your dreams. Unbeatable prices, unlimited miles,
-                flexible pick-up options and much more.
+              <p>        
+Experience driving the car you've always dreamed of with our unbeatable prices, flexible pick-up options, unlimited mileage, and other great features
               </p>
               <div className="hero-content__text__btns">
                 <Link
