@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import BgShape from "../images/hero/hero-bg.png";
-import HeroCar from "../images/hero/main-car.png";
+import HeroCar from "../images/hero/mainpic-fotor.png";
 import { useEffect, useState } from "react";
 
-function Hero() {
+function Intro() {
   const [goUp, setGoUp] = useState(false);
 
   const scrollToTop = () => {
@@ -38,7 +38,7 @@ function Hero() {
           <img className="bg-shape" src={BgShape} alt="bg-shape" />
           <div className="hero-content">
             <div className="hero-content__text">
-              <h4>Plan your trip now</h4>
+              <h4>Take a ride with us <span className="and">and</span></h4>
               <h1>
                 Save <span>big</span> with our car rental
               </h1>
@@ -50,7 +50,7 @@ function Hero() {
                 <Link
                   onClick={bookBtn}
                   className="hero-content__text__btns__book-ride"
-                  to="/"
+                  //to="/"
                 >
                   Book Ride &nbsp; <i className="fa-solid fa-circle-check"></i>
                 </Link>
@@ -81,4 +81,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default Intro;

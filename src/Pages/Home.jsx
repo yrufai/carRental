@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../components/Hero";
+import Intro from "../components/Intro";
 import BookCar from "../components/BookCar";
 import PlanTrip from "../components/PlanTrip";
 import PickCar from "../components/PickCar";
@@ -13,7 +13,7 @@ import Footer from "../components/Footer";
 function Home() {
   return (
     <>
-      <Hero />
+      <Intro />
       <BookCar />
       <PlanTrip />
       <PickCar />

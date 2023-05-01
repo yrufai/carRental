@@ -57,7 +57,7 @@
       margin-bottom: 2.3rem;
 
       span {
-        color: $text-orange;
+        color: rgb(148, 102, 33) //$text-orange;
       }
     }
 
@@ -99,7 +99,7 @@
 
         &:hover {
           box-shadow: 0 10px 15px 0 rgb(255 83 48 / 60%);
-          background-color: #fa4226;
+          background-color: #e27968;
         }
       }
 
@@ -112,7 +112,7 @@
 
         &:hover {
           background-color: transparent;
-          color: $text-black;
+          color: rgb(236, 104, 15) //$text-black;
         }
       }
     }
