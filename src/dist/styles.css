@@ -212,7 +212,6 @@ body {
 
 .bg-shape {
   position: absolute;
-  size: 30vw;
   top: 0;
   right: 0;
   z-index: 1;
@@ -295,7 +294,7 @@ body {
   font-weight: 700;
 }
 .hero-content__text__btns__book-ride {
-  background-color: #ff4d30;
+  background-color: #d83788;
   padding: 1.8rem 3rem;
   border-radius: 0.3rem;
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
