@@ -45,6 +45,11 @@
       font-size: $h4-size;
       font-family: $text-font;
       color: $text-black;
+
+      .and{
+        font-family: 'Shadows Into Light', cursive;
+        color: $text-orange;
+      }
     }
 
     h1 {
@@ -57,7 +62,8 @@
       margin-bottom: 2.3rem;
 
       span {
-        color: rgb(148, 102, 33) //$text-orange;
+        color: $text-orange;
+        font-family: 'Shadows Into Light', cursive;
       }
     }
 
@@ -89,7 +95,7 @@
         background-color: $text-orange;
         padding: 1.8rem 3rem;
         border-radius: 0.3rem;
-        box-shadow: 0 10px 15px 0 rgb(255 83 48 / 35%);
+        box-shadow: 0 10px 15px 0 rgba(88, 65, 60, 0.35);
         transition: all 0.3s;
         border: 2px solid $text-orange;
 
@@ -98,7 +104,7 @@
         }
 
         &:hover {
-          box-shadow: 0 10px 15px 0 rgb(255 83 48 / 60%);
+          box-shadow: 0 10px 15px 0 rgba(54, 175, 175, 0.6);
           background-color: #e27968;
         }
       }

@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 65.5%;
   scroll-behavior: smooth;
 }
 
@@ -24,7 +24,7 @@ body {
 /* Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #ff4d30 #ffffff;
+  scrollbar-color: #f31270 #ffffff;
 }
 
 /* Chrome, Edge and Safari */
@@ -48,15 +48,15 @@ body {
 
 *::-webkit-scrollbar-thumb {
   border-radius: 20px;
-  background-color: #ff4d30;
+  background-color: #f31270;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background-color: #ff4d30;
+  background-color: #f31270;
 }
 
 *::-webkit-scrollbar-thumb:active {
-  background-color: #ff2525;
+  background-color: #f31270;
 }
 
 .navbar {
@@ -97,7 +97,7 @@ body {
   transition: all 0.3s;
 }
 .navbar__links a:hover {
-  color: #ff4d30;
+  color: #f31270;
 }
 @media (max-width: 1000px) {
   .navbar__links {
@@ -123,10 +123,10 @@ body {
   transition: all 0.3s;
 }
 .navbar__buttons__sign-in:hover {
-  color: #ff4d30;
+  color: #f31270;
 }
 .navbar__buttons__register {
-  background-color: #ff4d30;
+  background-color: #f31270;
   color: white;
   padding: 1.5rem 3rem;
   border-radius: 3px;
@@ -148,7 +148,7 @@ body {
   transition: all 0.3s;
 }
 .mobile-hamb:hover {
-  color: #ff4d30;
+  color: #f31270;
 }
 @media (max-width: 1000px) {
   .mobile-hamb {
@@ -179,7 +179,7 @@ body {
   transition: all 0.3s;
 }
 .mobile-navbar__close:hover {
-  color: #ff4d30;
+  color: #f31270;
 }
 .mobile-navbar__links {
   display: flex;
@@ -196,7 +196,7 @@ body {
   transition: all 0.3s;
 }
 .mobile-navbar__links li a:hover {
-  color: #ff4d30;
+  color: #f31270;
 }
 
 .open-nav {
@@ -206,7 +206,7 @@ body {
 .hero-section {
   width: 100%;
   height: 97vh;
-  background-color: #d3f5f8;
+  background-color: #eaf7f4;
   position: relative;
 }
 
@@ -252,6 +252,10 @@ body {
   font-family: "Rubik", sans-serif;
   color: #010103;
 }
+.hero-content__text h4 .and {
+  font-family: "Shadows Into Light", cursive;
+  color: #f31270;
+}
 .hero-content__text h1 {
   font-size: 5.2rem;
   font-family: "Poppins", sans-serif;
@@ -261,14 +265,9 @@ body {
   margin-top: 1rem;
   margin-bottom: 2.3rem;
 }
-.hero-content__text h4 span {
-  color: #23d3ca;
-  font-family: 'Shadows Into Light', cursive;
-  font-size:xx-large;
-}
 .hero-content__text h1 span {
-  color: #23d3ca;
-  font-family: 'Shadows Into Light', cursive;
+  color: #f31270;
+  font-family: "Shadows Into Light", cursive;
 }
 .hero-content__text p {
   font-size: 1.6rem;
@@ -294,12 +293,12 @@ body {
   font-weight: 700;
 }
 .hero-content__text__btns__book-ride {
-  background-color: #d83788;
+  background-color: #f31270;
   padding: 1.8rem 3rem;
   border-radius: 0.3rem;
-  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
+  box-shadow: 0 10px 15px 0 rgba(88, 65, 60, 0.35);
   transition: all 0.3s;
-  border: 2px solid #ff4d30;
+  border: 2px solid #f31270;
 }
 @media (max-width: 450px) {
   .hero-content__text__btns__book-ride {
@@ -307,8 +306,8 @@ body {
   }
 }
 .hero-content__text__btns__book-ride:hover {
-  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.6);
-  background-color: #fa4226;
+  box-shadow: 0 10px 15px 0 rgba(54, 175, 175, 0.6);
+  background-color: #e27968;
 }
 .hero-content__text__btns__learn-more {
   background-color: #010103;
@@ -319,7 +318,7 @@ body {
 }
 .hero-content__text__btns__learn-more:hover {
   background-color: transparent;
-  color: #010103;
+  color: rgb(236, 104, 15);
 }
 .hero-content__car-img {
   z-index: 2;
@@ -338,7 +337,7 @@ body {
   position: fixed;
   font-size: 2.5rem;
   color: white;
-  background-color: #ff4d30;
+  background-color: #f31270;
   border: 3px solid white;
   width: 2rem;
   height: 2rem;
@@ -359,7 +358,7 @@ body {
 
 .book-section {
   position: relative;
-  background: linear-gradient(to bottom, #f8f8f8 20%, #ffffff 80%);
+  background: linear-gradient(to bottom, #eaf7f4 20%, #ffffff 80%);
 }
 
 .book-content {
@@ -401,7 +400,7 @@ body {
   gap: 2rem;
 }
 .book-content__box .box-form b {
-  color: #ff4d30;
+  color: #f31270;
 }
 @media (max-width: 1000px) {
   .book-content__box .box-form {
@@ -423,7 +422,7 @@ body {
   margin-bottom: 1.2rem;
 }
 .book-content__box .box-form__car-type label i {
-  color: #ff4d30;
+  color: #f31270;
 }
 .book-content__box .box-form__car-type select {
   font-size: 1.5rem;
@@ -452,7 +451,7 @@ body {
   margin-bottom: 1.2rem;
 }
 .book-content__box .box-form__car-time label i {
-  color: #ff4d30;
+  color: #f31270;
 }
 .book-content__box .box-form__car-time ::-webkit-datetime-edit {
   padding: 1.3rem 1.3rem;
@@ -471,7 +470,7 @@ body {
   font-size: 1.8rem;
   font-weight: 500;
   color: white;
-  background-color: #ff4d30;
+  background-color: #f31270;
   box-shadow: 0 10px 15px rgba(255, 83, 48, 0.35);
   cursor: pointer;
   transition: all 0.3s;
@@ -567,7 +566,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 1rem 1.5rem;
-  background-color: #ff4d30;
+  background-color: #f31270;
   color: white;
   align-items: center;
 }
@@ -594,7 +593,7 @@ body {
 .booking-modal__message h4 {
   font-size: 1.9rem;
   font-weight: 700;
-  color: #ff4d30;
+  color: #f31270;
 }
 .booking-modal__message h4 i {
   font-size: 2.5rem;
@@ -625,7 +624,7 @@ body {
 }
 .booking-modal__car-info__dates h5 {
   font-size: 1.8rem;
-  color: #ff4d30;
+  color: #f31270;
 }
 .booking-modal__car-info__dates span {
   display: flex;
@@ -668,7 +667,7 @@ body {
 }
 .booking-modal__car-info__model h5 {
   font-size: 1.8rem;
-  color: #ff4d30;
+  color: #f31270;
 }
 .booking-modal__car-info__model h5 span {
   color: #010103;
@@ -686,7 +685,7 @@ body {
 .booking-modal__person-info h4 {
   font-size: 1.8rem;
   text-transform: uppercase;
-  color: #ff4d30;
+  color: #f31270;
   margin-bottom: 2rem;
 }
 
@@ -739,7 +738,7 @@ body {
   color: #777777;
 }
 .info-form__2col span label b, .info-form__1col span label b {
-  color: #ff4d30;
+  color: #f31270;
 }
 .info-form__2col span input, .info-form__1col span input {
   padding: 14px 15px;
@@ -766,7 +765,7 @@ body {
   font-size: 2.4rem;
   color: white;
   font-weight: 700;
-  background-color: #ff4d30;
+  background-color: #f31270;
   border: 1px solid yellow;
   padding: 1.2rem 2rem;
   cursor: pointer;
@@ -909,7 +908,7 @@ body {
   text-align: left;
 }
 .pick-box button:hover {
-  background-color: #ff4d30;
+  background-color: #f31270;
   color: white;
 }
 
@@ -932,7 +931,7 @@ body {
 }
 .pick-description__price {
   width: 100%;
-  background-color: #ff4d30;
+  background-color: #f31270;
   font-size: 1.8rem;
   display: flex;
   align-items: center;
@@ -972,7 +971,7 @@ body {
   font-weight: 600;
   color: white;
   font-family: "Poppins", sans-serif;
-  background-color: #ff4d30;
+  background-color: #f31270;
   padding: 1rem 1rem;
   display: flex;
   width: 100%;
@@ -1005,7 +1004,7 @@ body {
 }
 
 .colored-button {
-  background-color: #ff4d30 !important;
+  background-color: #f31270 !important;
   color: white;
 }
 
@@ -1073,7 +1072,7 @@ body {
   }
 }
 .banner-content__text span {
-  color: #ff4d30;
+  color: #f31270;
   font-weight: 500;
 }
 
@@ -1150,12 +1149,12 @@ body {
   text-decoration: none;
   color: white;
   font-weight: 700;
-  background-color: #ff4d30;
+  background-color: #f31270;
   padding: 1.5rem 2.5rem;
   border-radius: 0.3rem;
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
   transition: all 0.3s;
-  border: 2px solid #ff4d30;
+  border: 2px solid #f31270;
   font-size: 1.6rem;
   width: -moz-fit-content;
   width: fit-content;
@@ -1201,7 +1200,7 @@ body {
 }
 
 .testimonials-section {
-  background-color: #f8f8f8;
+  background-color: #eaf7f4;
   padding: 10rem 0;
   color: #010103;
 }
@@ -1287,7 +1286,7 @@ body {
 
 .quotes-icon {
   font-size: 6.2rem;
-  color: #ff4d30;
+  color: #f31270;
   position: absolute;
   bottom: 33px;
   right: 60px;
@@ -1401,14 +1400,14 @@ body {
 }
 
 .active-question {
-  background-color: #ff4d30;
+  background-color: #f31270;
   color: white;
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
 }
 
 .download-section {
   background-image: url("/src/images/banners/bg02.png");
-  background-color: #f8f8f8;
+  background-color: #eaf7f4;
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1509,7 +1508,7 @@ footer {
   transition: all 0.2s;
 }
 .footer-content__1 li a:hover {
-  color: #ff4d30;
+  color: #f31270;
 }
 .footer-content__1 li:nth-child(1) {
   font-size: 2.4rem;
@@ -1544,7 +1543,7 @@ footer {
   transition: all 0.2s;
 }
 .footer-content__2 a:hover {
-  color: #ff4d30;
+  color: #f31270;
 }
 .footer-content__2 li {
   font-size: 1.6rem;
@@ -1579,7 +1578,7 @@ footer {
   text-decoration: none;
   color: white;
   font-weight: 700;
-  background-color: #ff4d30;
+  background-color: #f31270;
   padding: 1.5rem 2.5rem;
   border-radius: 0.3rem;
   box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.25);
@@ -1637,7 +1636,7 @@ footer {
   transition: all 0.2s;
 }
 .hero-pages__text p a:hover {
-  color: #ff4d30;
+  color: #f31270;
 }
 
 .about-main {
@@ -1795,7 +1794,7 @@ footer {
   font-size: 2.7rem;
   gap: 1rem;
   align-items: center;
-  color: #ff4d30;
+  color: #f31270;
   white-space: nowrap;
 }
 
@@ -2033,7 +2032,7 @@ footer {
   margin-bottom: 0.5rem;
 }
 .contact-div__text a:hover {
-  color: #ff4d30;
+  color: #f31270;
 }
 .contact-div__form {
   display: flex;
@@ -2049,7 +2048,7 @@ footer {
   margin-bottom: 1rem;
 }
 .contact-div__form form label b {
-  color: #ff4d30;
+  color: #f31270;
 }
 .contact-div__form form input {
   background-color: #f2f2f2;
