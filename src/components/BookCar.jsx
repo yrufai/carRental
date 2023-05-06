@@ -176,7 +176,7 @@ function BookCar() {
               <form className="box-form">
                 <div className="box-form__car-type">
                   <label>
-                    <i className="fa-solid fa-car"></i> &nbsp; Select Your Car
+                    <i className="fa-solid fa-car"></i> &nbsp; Car
                     Type <b>*</b>
                   </label>
                   <select value={carType} onChange={handleCar}>
