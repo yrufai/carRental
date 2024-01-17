@@ -15,17 +15,17 @@ function Footer() {
               </li>
               <li>
                 <a href="tel:123456789">
-                  <i className="fa-solid fa-phone"></i> &nbsp; (123) -456-789
+                  <i className="fa-solid fa-phone"></i> &nbsp; +233247005514
                 </a>
               </li>
 
               <li>
                 <a
                   href="mailto: 
-                carrental@gmail.com"
+                yrufai23@gmail.com"
                 >
                   <i className="fa-solid fa-envelope"></i>
-                  &nbsp; carrental@gmail.com
+                  &nbsp; yrufai23@gmail.com
                 </a>
               </li>
 
@@ -34,9 +34,9 @@ function Footer() {
                   style={{ fontSize: "14px" }}
                   target="_blank"
                   rel="noreferrer"
-                  href="https://xpeedstudio.com/"
+                  href="https://github.com/yrufai"
                 >
-                  Design by XpeedStudio
+                  Design by El Studio
                 </a>
               </li>
             </ul>
@@ -44,7 +44,7 @@ function Footer() {
             <ul className="footer-content__2">
               <li>Company</li>
               <li>
-                <a href="#home">New York</a>
+                <a href="#home">Accra</a>
               </li>
               <li>
                 <a href="#home">Careers</a>

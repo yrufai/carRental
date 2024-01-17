@@ -32,7 +32,7 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$45</h4>
+                      <h4>ghc450</h4>
                       <p>per day</p>
                     </div>
                   </div>
@@ -75,7 +75,7 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$37</h4>
+                      <h4>ghc370</h4>
                       <p>per day</p>
                     </div>
                   </div>
@@ -118,7 +118,7 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$30</h4>
+                      <h4>ghc300</h4>
                       <p>per day</p>
                     </div>
                   </div>
@@ -161,7 +161,7 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$35</h4>
+                      <h4>ghc350</h4>
                       <p>per day</p>
                     </div>
                   </div>
@@ -204,7 +204,7 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$50</h4>
+                      <h4>ghc500</h4>
                       <p>per day</p>
                     </div>
                   </div>
@@ -247,7 +247,7 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$25</h4>
+                      <h4>ghc250</h4>
                       <p>per day</p>
                     </div>
                   </div>

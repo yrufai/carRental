@@ -194,31 +194,37 @@ function BookCar() {
 
                 <div className="box-form__car-type">
                   <label>
-                    <i className="fa-solid fa-location-dot"></i> &nbsp; Pick-up{" "}
+                    <i className="fa-solid fa-location-dot"></i> &nbsp; Pick-up Location{ " "}
                     <b>*</b>
                   </label>
                   <select value={pickUp} onChange={handlePick}>
                     <option>Select pick up location</option>
-                    <option>Belgrade</option>
-                    <option>Novi Sad</option>
-                    <option>Nis</option>
-                    <option>Kragujevac</option>
-                    <option>Subotica</option>
+                    <option>East Legon</option>
+                    <option>Cantoments</option>
+                    <option>Labone</option>
+                    <option>Cycle</option>
+                    <option>Osu</option>
+                    <option>Madina</option>
+                    <option>Kasoa</option>
+                    <option>Aburi</option>
                   </select>
                 </div>
 
                 <div className="box-form__car-type">
                   <label>
-                    <i className="fa-solid fa-location-dot"></i> &nbsp; Drop-of{" "}
+                    <i className="fa-solid fa-location-dot"></i> &nbsp; Drop-of Location{" "}
                     <b>*</b>
                   </label>
                   <select value={dropOff} onChange={handleDrop}>
                     <option>Select drop off location</option>
-                    <option>Novi Sad</option>
-                    <option>Belgrade</option>
-                    <option>Nis</option>
-                    <option>Kragujevac</option>
-                    <option>Subotica</option>
+                    <option>East Legon</option>
+                    <option>Cantoments</option>
+                    <option>Labone</option>
+                    <option>Cycle</option>
+                    <option>Osu</option>
+                    <option>Madina</option>
+                    <option>Kasoa</option>
+                    <option>Aburi</option>
                   </select>
                 </div>
 

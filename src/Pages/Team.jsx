@@ -10,12 +10,12 @@ import Person6 from "../images/team/6.png";
 
 function Team() {
   const teamPpl = [
-    { img: Person1, name: "Luke Miller", job: "Salesman" },
-    { img: Person2, name: "Michael Diaz", job: "Business Owner" },
-    { img: Person3, name: "Briana Ross", job: "Photographer" },
-    { img: Person4, name: "Lauren Rivera", job: "Car Detailist" },
-    { img: Person5, name: "Martin Rizz", job: "Mechanic" },
-    { img: Person6, name: "Caitlyn Hunt", job: "Menager" },
+    { img: Person1, name: "Shata Wale", job: "Salesman" },
+    { img: Person2, name: "Dj Khalid", job: "Business Owner" },
+    { img: Person3, name: "Beyounce", job: "Photographer" },
+    { img: Person4, name: "Peter Dinklage", job: "Car Detailist" },
+    { img: Person5, name: "Livingstone Etse Satekla", job: "Mechanic" },
+    { img: Person6, name: "Dwayne Johnson", job: "Manager" },
   ];
   return (
     <>
@@ -26,7 +26,7 @@ function Team() {
             {teamPpl.map((ppl, id) => (
               <div key={id} className="team-container__box">
                 <div className="team-container__box__img-div">
-                  <img src={ppl.img} alt="team_img" />
+                  <img height="450px" src={ppl.img} alt="team_img" />
                 </div>
                 <div className="team-container__box__descr">
                   <h3>{ppl.name}</h3>
